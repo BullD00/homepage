@@ -1,0 +1,103 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before{
+    box-sizing: inherit;
+}
+
+.container {
+    overflow-x: auto;
+}
+.table {
+    font-family: "Lato", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableRow:nth-child(even) {
+    background-color: #eee;
+}
+
+.tableRow:hover {
+    background: #d3d3d3;
+}
+
+.tableCell {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.caption {
+    caption-side: top;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tableHeader {
+    background-color: rgb(163, 110, 67);
+    color: rgb(175, 189, 255);
+    font-weight: normal;
+}
+ 
+.listItem {
+    margin: 5px 0;
+    background-color: rgba(163, 110, 67, 0.562);
+}
+
+.list {
+    padding-left: 20px;
+}
+
+.orderdList {
+    list-style-type: circle;
+}
+
+.unorderdList {
+    list-style-type: "🍯";
+    list-style-position: inside;
+}
+.element {
+    max-width: 400px;
+    height: 250px;
+    background-color: rgb(163, 110, 67);
+    border-width: 5px 10px;
+    border-radius: 10px;
+    border-color: rgb(120, 145, 255);
+    padding: 2%;
+    margin: 50px auto;
+    box-shadow: 5px 5px 34px 14px rgb(163, 110, 67);
+}
+
+.subElement {
+    max-width: 80%;
+    max-height: 80%;
+    background-color: rgb(154, 155, 255);
+    margin: 10%;
+    outline: 5px solid black; 
+    outline-style: double;
+    text-align: center;
+}
+
+.body {
+    color: #333;
+    max-width: 850px;
+    padding: 0 20px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;    
+}
+
+.dark {
+    color: #4e2c00;
+    background: darkgrey;
+}
+
+.footer {
+    background-color: rgb(154, 155, 255);
+    margin: 10%;
+    outline: 5px solid black; 
+    outline-style: double;
+    text-align: center;
+}

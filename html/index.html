@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Moja pierwsza strona z dodatkami</title>
+</head>
+
+<body class="body">
+    <main class="table">
+    <header> 
+        <h1>Moja pierwsza strona z dodatkami</h1>
+    </header>
+    <!-- below button changes theme -->
+    <button class="button">Włącz <span class="themeName">ciemny</span> motyw</button> <p>
+    </p>
+    <a href="#ulubionePrzekaski">Ulubione Przekąski</a><br>
+    <a href="#kolejnoscDzialan">Kolejność Działań</a><br>
+    <a href="mailto:daniel.pank@outlook.com">
+        daniel.pank@outlook.com
+    </a><br>
+    <a href="tel:+48 665591948">+48 665 591 948</a><br>
+    <br>
+    <div class="container">
+        <table class="table">
+            <caption class="caption">Wymażone samochody z różnymi napędami</caption>
+            <thead>
+                <tr class="tableRow">
+                    <th class="tableCell tableHeader" scope="col">Marka</th>
+                    <th class="tableCell tableHeader" scope="col">Model</th>
+                    <th class="tableCell tableHeader" scope="col">Napęd</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="tableRow">
+                    <th class="tableCell tableHeader" scope="row">Toyota</th>
+                    <td class="tableCell">C-HR</td>
+                    <td class="tableCell">Hybryda 2,0L</td>
+                </tr>
+                <tr class="tableRow">
+                    <th class="tableCell tableHeader" scope="row">Mercedes</th>
+                    <td class="tableCell">C63 AMG</td>
+                    <td class="tableCell">Spalinowy 4,4L</td>
+                </tr>
+                <tr class="tableRow">
+                    <th class="tableCell tableHeader" scope="row">Tesla</th>
+                    <td class="tableCell">Model X</td>
+                    <td class="tableCell">Elektryk P100D</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr class="tableRow">
+                    <th class="tableCell tableHeader" scope="row" colspan="2">Który najlepszy</th>
+                    <td class="tableCell">?</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <section id="ulubionePrzekaski">
+        <p>Moje ulubine przekąski</p>
+        <ul class="list unorderdList">
+            <li class="listItem">
+                Kinder
+                <ul class="list">
+                    <li class="listItem">Maxi</li>
+                    <li class="listItem">Schoko-Bons</li>
+                    <li class="listItem">Pingui</li>
+                </ul>
+            </li>
+
+            </li>
+            <li class="listItem">
+                Lay's
+                <ul class="list">
+                    <li class="listItem">Cebulkowe</li>
+                    <li class="listItem">Fromage</li>
+                    <li class="listItem">Strong</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="kolejnoscDzialan">
+        <p>Kolejność wykonywania działań</p>
+        <ol class="list orderdList">
+            <li class="listItem">Nawiasy</li>
+            <li class="listItem">potęgi</li>
+            <li class="listItem">mnożenie i dzielenie</li>
+            <li class="listItem">dodawanie i odejmowanie</li>
+                <ul class="list">
+                    <li class="listItem">nigdy na odwrót</li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+    <p>
+        Jeśli masz ochotę odpocząć i coś pooglądać to wejdź
+        <a title="Youtube" rel="noreferrer noopener" target="_blank" href="https://www.youtube.com/">
+            strona z śmiesznymi filmikami i nie tylko (link otworzy się w nowej karcie)
+        </a>
+    </p>
+    <div class="element">
+        <p class="subElement">
+            Mam nadzieję żę się podoba i jest w miarę czytelna.
+        </p>
+    </div>
+</main>
+<footer class="footer">
+    Strona stworzona przez Daniel Pankiewicz
+</footer>
+</body>
+
+</html>
