@@ -1,7 +1,7 @@
 # Daniel Pankiewicz - moja strona
 
 ## DEMO
-https://github.com/BullD00/homepage/
+https://bulld00.github.io/homepage/
 
 ## Opis
 
